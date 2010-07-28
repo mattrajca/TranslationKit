@@ -26,7 +26,7 @@
 	self = [super init];
 	if (self) {
 		sourceString = [[source stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding] retain];
-		sourceLanguageCode = @"";
+		sourceLanguageCode = [@"" retain];
 		destLanguageCode = [code copy];
 	}
 	return self;
