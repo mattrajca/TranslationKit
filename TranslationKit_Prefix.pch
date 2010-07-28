@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TranslationKit' target in the 'TranslationKit' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
